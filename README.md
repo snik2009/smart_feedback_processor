@@ -105,7 +105,6 @@ AI генерирует профессиональные ответы, соде�
 ### 1. Клонирование репозитория
 ```bash
 git clone <repo-url>
-cd Module_FreeLance_FinProject
 ```
 
 ### 2. Установка зависимостей
@@ -129,7 +128,7 @@ cp .env.example .env
 Необходимые переменные:
 - `OPENAI_API_KEY` или `PROXY_API_KEY` — API ключ для работы с моделями
 - `OPENAI_BASE_URL` — адрес API (для ProxyAPI или самостоятельного хоста)
-- Опционально: `MODEL_NAME`, `TEMPERATURE`, `OPENAI_MAX_TOKENS`
+- Опционально: `model`, `temperature`, `max_tokens` и другие - в файле settings.ini
 
 ### 4. Подготовка справочников
 Каталог `data/` содержит CSV-файлы с метаданными:
